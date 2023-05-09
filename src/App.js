@@ -8,18 +8,17 @@ import Seriespage from './pages/Seriespage/Seriespage';
 function App() {
   return (
     <div className="App">
+     <BrowserRouter>
     <Header/>
     <div className='pages'>
-     <BrowserRouter basename='/'>
      <Routes>
       <Route path='/' element={<Homepage/>} />
       <Route path='/moviespage' element={<Moviespage/>} />
       <Route path='/seriespage' element={<Seriespage/>} />
-
      </Routes>
-     </BrowserRouter>
     </div>
-   <Footer/>
+    <Footer/>
+     </BrowserRouter>
     </div>
   );
 }

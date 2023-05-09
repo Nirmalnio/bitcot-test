@@ -1,0 +1,28 @@
+.home-bodyDiv{
+    display: flex;
+    align-items: center;
+    padding: 10vh 10vw;
+}
+
+.cardsdiv{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tilecards{
+    width: 200px;
+    height:250px;
+    background-color:#1E1E1E;
+    background-image:url("../../Assets/Images/placeholder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}

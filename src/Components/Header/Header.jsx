@@ -1,13 +1,17 @@
 import React from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom'
 function Header() {
+
+
   return (
     <div>
         <header className='headerDiv'>
-            <div className='headerLogo'>
+           <Link to="/" className='headerLogo'>
+            <div>
                 DEMO Streaming
             </div>
-
+            </Link>
             <div className='header-option'>
              <span className='header-login'>Login</span>
 
