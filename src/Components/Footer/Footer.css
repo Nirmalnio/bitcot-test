@@ -1,0 +1,69 @@
+.fooeterDiv{
+    background-color: rgb(33, 33, 33);
+    padding: 25px 8.8vw;
+}
+
+.footertopDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footeroptn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.optionstext{
+    color: #fff;
+    font-size: 16px;
+    border-right: 1.5px solid #fff;
+    padding: 0px 20px;
+    height: 100%;
+}
+
+.removeborder{
+    color: #fff;
+    font-size: 16px;
+    border-right: none;
+    padding: 0px 20px;
+}
+
+.copywrites{
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.footerbtmDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.iconsdiv1{
+    display: flex;
+    align-items: center;
+}
+
+.iconsdiv1 img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+    cursor: pointer;
+ }
+
+.iconsdiv2{
+    display: flex;
+    align-items: center;
+}
+
+.iconsdiv2 img {
+    margin: 0px 10px;
+    cursor: pointer;
+    width: 160px;
+    height: auto;
+}
