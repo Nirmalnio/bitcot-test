@@ -34,3 +34,9 @@
     border: none;
     cursor: pointer;
 }
+
+@media screen and (max-width:680px) {
+    .header-option{
+        display: none;
+    }
+}

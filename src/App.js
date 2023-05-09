@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Moviespage from './pages/Moviespage/Moviespage';
 import Seriespage from './pages/Seriespage/Seriespage';
+import Errorpage from './pages/Errorpage/Errorpage';
 function App() {
   return (
     <div className="App">
@@ -12,9 +13,10 @@ function App() {
     <Header/>
     <div className='pages'>
      <Routes>
-      <Route path='/' element={<Homepage/>} />
+      <Route exact path='/' element={<Homepage/>} />
       <Route path='/moviespage' element={<Moviespage/>} />
       <Route path='/seriespage' element={<Seriespage/>} />
+      <Route path="*" element={<Errorpage />} />
      </Routes>
     </div>
     <Footer/>
