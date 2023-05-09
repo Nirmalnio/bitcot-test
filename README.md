@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# BitCot Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed in latest version of react and react-router-dom.
 
 ## Available Scripts
 
